@@ -1,0 +1,14 @@
+.hollow{
+    width: 120px;
+    position: relative; left: 1950px; top: 880px;
+
+}
+.login{
+    display: flex;
+    justify-content: center; 
+    height: 400px;
+    width: 400px;
+    border-radius: 90px;
+    position: relative; left: 800px; top: 100px;
+
+}

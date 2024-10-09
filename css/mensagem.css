@@ -1,0 +1,28 @@
+.hollow{
+    width: 120px;
+    position: relative; left: 1950px; top: 880px;
+
+}
+.grid {
+    display: grid;
+    grid-template-columns: minmax(20px, 1fr) repeat(6, minmax(0, 60px)) minmax(20px, 1fr);
+    grid-gap: 10px;
+    border-color: black;
+    border-radius: 50px 50px 50px 50px / 25px 25px 25px 25px;
+  }
+  
+  .full-width {
+    grid-column: 1 / -1;
+  }
+  
+  .wrapper {
+    grid-column: 2 / -2;
+  }
+  
+  .left-edge {
+    grid-column: 1 / -2;
+  }
+  
+  .right-wrapper {
+    grid-column: 4 / -2;
+  }

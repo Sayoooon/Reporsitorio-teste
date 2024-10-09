@@ -1,0 +1,12 @@
+.hollow{
+    width: 120px;
+    position: relative; left: 1950px; top: 880px;
+
+}
+.posts {
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn btn-primary{
+    color: black;
+}
